@@ -4,7 +4,7 @@ body{
 .h1{
     font-family: "Roboto", serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
     line-height: normal;
     font-size: 30px;
     text-align: center;
@@ -27,4 +27,15 @@ body{
     font-size: 14px;
     text-align: center;
     color: #333333;
+}
+.hight{
+    line-height: 1px !important;
+}
+.foot{
+    color: #7E7E7E;
+    text-decoration-line: underline;
+
+}
+.peque{
+    font-size: 12px;
 }
