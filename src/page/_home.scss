@@ -55,7 +55,7 @@
     margin-bottom: 2rem; 
 }
 .content_texto{
-    padding: 3rem;
+    padding: 3rem 0;
 }
 .icono_home{
     display: block;
@@ -92,7 +92,9 @@
 .content_info{
     display: block;
     margin: 0 auto;
-    padding: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    width: 100%;
 
 }
 .titulo_icono{
@@ -108,6 +110,7 @@
 .footer{
     background: #333333;
     padding: 2rem 0;
+    width: 100%;
 }
 .footer_copyright{
     background: #252525;
