@@ -32,10 +32,22 @@
 .rio{
     background-image: url(../img/rio.png);
 }
+.real{
+    background-image: url(../img/palacioreal.png);
+}
+.prado{
+    background-image: url(../img/prado.png);
+}
+.cibeles{
+    background-image: url(../img/cibeles.png);
+}
+.plazaespaña{
+    background-image: url(../img/plazaespana.png);
+}
 .texto_barrio{
     display: flex;
     margin-top: 2.3rem;
-    padding: 0 7.1rem;
+    justify-content: center;
     align-items: center;
 }
 .flecha_derecha{
