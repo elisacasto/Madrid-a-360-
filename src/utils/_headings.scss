@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 .h1{
-    font-family: "Roboto", serif;
+    font-family: "Playfair Display", serif;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
@@ -21,12 +21,41 @@ body{
     letter-spacing: 0.2em;
     color: #333333;
 }
+.h5{
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 12px;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    letter-spacing: 0.2em;
+    color: #8F8F8F;
+    
+
+}
+.nombre_barrio{
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    color: #ffffff;   
+}
 .parrafo{
     font-family: "roboto";
-    line-height: 18px;
+    line-height: 21px;
     font-size: 14px;
-    text-align: center;
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
     color: #333333;
+}
+@media only screen and (min-width: 768px){
+    .parrafo{
+        width: 60%;
+    }
 }
 .hight{
     line-height: 1px !important;

@@ -1,0 +1,52 @@
+.content_cajas_barrios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.caja_barrio{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    width: 331px;
+    height: 147px;
+    max-width: 1024px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.granvia{
+    background-image: url(../img/granvia.jpg);
+}
+.retiro{
+    background-image: url(../img/retiro.png);
+}
+.atocha{
+    background-image: url(../img/atocha.png);
+}
+.alcala{
+    background-image: url(../img/alcala.png);
+}
+.rio{
+    background-image: url(../img/rio.png);
+}
+.sombra_barrio{
+    display: flex;
+    top: 989px;
+    width: 331px;
+    height: 147px;
+    z-index: 2;
+    border-radius: 28px;
+    background: rgba(0,0,0,0.4);
+}
+.texto_barrio{
+    display: flex;
+    padding: 0 7.1rem;
+    position: absolute;
+    z-index: 3;
+    top: 2rem; 
+    align-items: center;
+}
+.flecha_derecha{
+    width: 7px; 
+    margin-left: 10px;
+}
