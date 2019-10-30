@@ -1,4 +1,5 @@
 .boton_blanco{
+    cursor: pointer;
     font-family: 'roboto';
     font-weight: bold;
     height: 3rem;
@@ -13,9 +14,14 @@
     border: 2px solid white;
     display: block;
     margin: 0 auto;
-    z-index: 4;
+    transition: all 1s ease;
+}
+.boton_blanco:hover{
+    color: #333333;
+    background: #ffffff;
 }
 .button_second{
+    cursor: pointer;
     font-family: 'roboto';
     font-weight: bold;
     text-decoration: none;
@@ -31,7 +37,11 @@
     border: 2px solid transparent;
     display: block;
     margin: 0 auto;
-    z-index: 4;
+    transition: all 1s ease;
+}
+.button_second:hover{
+    color: #ffffff;
+    background: rgb(64, 163, 122);
 }
 a{
     text-decoration: none;

@@ -5,6 +5,7 @@
     position: fixed;
     bottom:0;
     left: 0;
+    z-index: 2;
 }
 @media only screen and (min-width: 960px){
     .header{
@@ -24,10 +25,17 @@
     bottom: 0;
     height: 80vh;
 }
+@media only screen and (min-width: 960px){
+    .content-home{
+        width: 70%;
+        border-radius: 23px;
+        margin: 0 auto;
+    }
+}
 .texto-home{
     font-family:"Playfair Display";
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     color: #333333;
     line-height: 36px;
     margin-top: 6rem;
@@ -90,22 +98,21 @@
 }
 
 .content_info{
-    display: block;
+    display: flex;
     margin: 0 auto;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    width: 100%;
+    width: 80%;
 
 }
 .titulo_icono{
-    display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 .icono_info{
     display: block;
-    margin-right: 1rem;
     width: 40px;
     height: 40px;
+    margin-left: 20%;
 }
 .footer{
     background: #333333;

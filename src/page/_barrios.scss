@@ -1,5 +1,6 @@
 .content_cajas_barrios{
     display: flex;
+    padding-bottom: 5rem;
     flex-wrap: wrap;
     margin: 0 auto;
 }
@@ -15,9 +16,11 @@
     margin: auto;
     margin-bottom: 1rem;
 }
+.plazamayor{
+    background-image: url(../img/plazamayor.png);
+}
 .granvia{
     background-image: url(../img/granvia.jpg);
-
 }
 .retiro{
     background-image: url(../img/retiro.png);
