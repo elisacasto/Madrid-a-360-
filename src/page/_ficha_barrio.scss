@@ -12,7 +12,7 @@
     .plaza_mayor{
         background-position: top;
         margin: 0 auto;
-        height: 400px;
+        height: 80vh;
     }
     .img_header{
         margin: 0 auto;
@@ -29,7 +29,10 @@
 }
 @media only screen and (min-width: 768px){
     .back{
-        margin-left: 20% !important;
+        margin-left: 10% !important;
         margin-top: 1rem !important;
     }
+}
+.mapa{
+    margin: auto !important;
 }

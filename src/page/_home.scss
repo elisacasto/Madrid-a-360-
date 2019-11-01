@@ -27,32 +27,38 @@
 }
 @media only screen and (min-width: 960px){
     .content-home{
-        width: 70%;
+        width: 100%;
         border-radius: 23px;
         margin: 0 auto;
     }
 }
 .texto-home{
     font-family:"Playfair Display";
-    font-size: 24px;
+    font-size: 30px;
     text-align: left;
     color: #333333;
-    line-height: 36px;
+    line-height: 40px;
     margin-top: 6rem;
-}
-@media only screen and (min-width: 960px){
-    .texto-home{
-        font-size: 36px;
-        line-height: 48px;
-    }
 }
 .madrid{
     font-weight: bold;
-    font-size: 36px;
-    columns: #333333;
+    font-size: 30px;
+    color: #5BE2AA;
 }
+@media only screen and (min-width: 960px){
+    .texto-home{
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .madrid{
+        font-weight: bold;
+        font-size: 70px;
+    }
+}
+
 .foto{
-    margin-left: -138px;
+    margin-left: -78px;
+    width: 330px;   
 }
 .flecha_abajo{
     display: block;
@@ -63,7 +69,12 @@
     margin-bottom: 2rem; 
 }
 .content_texto{
-    padding: 3rem 0;
+    padding-bottom: 2rem;
+}
+@media only screen and (min-width: 768px){
+    .content_texto{
+        padding: 3rem 0 5rem 0;
+    }
 }
 .icono_home{
     display: block;
@@ -82,6 +93,8 @@
 @media only screen and (min-width: 768px){
     .flex{
         display: flex;
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -101,7 +114,6 @@
     display: flex;
     margin: 0 auto;
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
     width: 80%;
 
 }
