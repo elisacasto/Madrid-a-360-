@@ -40,7 +40,8 @@
     line-height: 40px;
     margin-top: 6rem;
     margin-left: 20px;
-    margin-right: -0.5rem;
+    position: relative;
+    margin-right: -5.5rem;
 }
 .madrid{
     font-weight: bold;
@@ -59,8 +60,7 @@
 }
 
 .foto{
-    margin-left: -120px;
-    width: 330px;   
+    width: 100%;   
 }
 .flecha_abajo{
     display: block;
