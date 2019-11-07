@@ -20,7 +20,6 @@ body{
     text-align: left;
     letter-spacing: 0.2em;
     color: #333333;
-    margin-left: 10%;
 }
 .h5{
     font-family: "Roboto", serif;
@@ -48,7 +47,6 @@ body{
     font-family: "roboto";
     line-height: 21px;
     font-size: 14px;
-    width: 80%;
     text-align: left;
     margin: 0 auto;
     color: #333333;
@@ -69,12 +67,3 @@ a{
     text-decoration-line: underline;
     text-align: center;
 } 
-.back{
-    margin: 0;
-    width: 90%;
-}
-@media only screen and (min-width: 768px){
-    .back{
-        width: 80%;
-    }
-}

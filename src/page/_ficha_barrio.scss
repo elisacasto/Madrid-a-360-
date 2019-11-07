@@ -25,13 +25,10 @@
     top:-3rem;
     border-radius: 23px;
     padding: 1rem;
-    z-index: 1s;
+    z-index: 1;
 }
-@media only screen and (min-width: 768px){
-    .back{
-        margin-left: 10% !important;
-        margin-top: 1rem !important;
-    }
+.box-mapa{
+    margin-top: 5rem;
 }
 .box_sitio{
     width: 80%;
@@ -48,4 +45,7 @@
     list-style: none;
     color: #5BE2AA;
     text-decoration: underline;
+}
+.primer_parrafo{
+    margin: 3rem 0;
 }
