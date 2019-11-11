@@ -6,6 +6,7 @@ header{
     position: fixed;
     bottom:0;
     bottom: 0;
+    z-index: 3;
 }
 @media only screen and (min-width: 768px){
   header{
@@ -106,9 +107,8 @@ li:hover{
   display:flex;
   margin: 0 auto;
   height:72px;
-  width:72px;
+  width:auto;
   text-align:center;
-  padding:0px 24px;
 
 }
 
