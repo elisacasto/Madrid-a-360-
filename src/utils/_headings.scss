@@ -31,8 +31,11 @@ body{
     margin-left: 2rem;
     letter-spacing: 0.2em;
     color: #8F8F8F;
-    
-
+}
+@media only screen and (min-width: 768px){
+    .h5{
+        margin-left: 10%;
+    }
 }
 .nombre_barrio{
     font-family: "Roboto", serif;
