@@ -16,10 +16,11 @@
     padding-top: 10%;
     bottom: 0;
     height: 80vh;
+    
 }
 @media only screen and (min-width: 960px){
     .content-home{
-        padding-top: 15%;
+        padding-top: 10%;
         width: 100%;
         border-radius: 23px;
         margin: 0 auto;
@@ -38,6 +39,7 @@
     margin-top: 6rem;
     margin-left: 20px;
     margin-right: -7.5rem;
+    
 }
 .madrid{
     font-weight: bold;
@@ -47,7 +49,7 @@
 @media only screen and (min-width: 960px){
     .texto-home{
         font-size: 70px;
-        line-height: 80px;
+        line-height: 80px;  
     }
     .madrid{
         font-weight: bold;
@@ -56,7 +58,7 @@
 }
 
 .foto{
-    width: 100%;   
+    width: 100%;
 }
 .flecha_abajo{
     display: block;
@@ -113,7 +115,7 @@
 }
 .texto_categoria{
     width: 90%;
-    padding-top: 3rem;
+    padding-top: 4rem;
     margin: 0 auto;
 }
 @media only screen and (min-width: 768px){
@@ -138,9 +140,8 @@
 }
 .icono_info{
     display: block;
-    width: 40px;
+    width: 30px;
     margin-right: 20px;
-    height: 40px;   
 }
 .footer{
     background: #333333;

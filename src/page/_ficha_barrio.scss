@@ -3,12 +3,7 @@
     text-decoration: underline;
 }
 .box_page{
-    margin-top: 10%;
-}
-@media only screen and (min-width: 940px){
-    .box_page{
-        margin-top: 8%;
-    }
+    margin-top: 0%;
 }
 .plaza_mayor{ 
     display: inline;
@@ -18,16 +13,19 @@
     object-fit: cover;
     margin: 0 auto;
     z-index: -1;
+    border-radius: 23px;
 }
 @media only screen and (min-width: 768px){
     .plaza_mayor{
         background-position: top;
         margin: 0 auto;
         height: 80vh;
+        border-radius: 23px;
     }
     .img_header{
         margin: 0 auto;
         width: 80%;
+        
     }
 }
 .info_box{

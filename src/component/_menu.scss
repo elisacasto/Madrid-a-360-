@@ -16,8 +16,12 @@ header{
 .icono_menu{
   width: 30px;
   margin-top: 10px;
-  color: #039BE5; 
+  fill: #999999; 
 }
+.icono_menu :hover{
+  fill: #5BE2AA;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -33,6 +37,7 @@ li:hover{
 }
 .active{
   color: #5BE2AA;
+  fill: #5BE2AA;
   font-weight: 600;
 }
 .webapp{
@@ -99,8 +104,15 @@ li:hover{
     display: flex;
     left: 0;
     padding: 0 8px; 
+    max-width: 50%;
+    margin: 0 auto;
 }
-
+@media only screen and (min-width: 768px){
+  #flavor-menu{
+    max-width: 30%;
+    margin: 0 auto;
+  }
+}
 
 #flavor-menu li{
   display:flex;

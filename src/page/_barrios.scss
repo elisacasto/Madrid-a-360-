@@ -15,7 +15,11 @@
     height: 147px;
     margin: auto;
     margin-bottom: 1rem;
+	transform: scale(1);
+	transition: .7s ease-in-out;
 }
+
+ 
 .plazamayor{
     background-image: url(../img/plazamayor.png);
 }
