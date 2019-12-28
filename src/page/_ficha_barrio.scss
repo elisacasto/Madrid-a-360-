@@ -40,7 +40,7 @@
 }
 @media only screen and (min-width: 768px){
     .info_box{
-        padding: 3rem 6rem ;
+        padding: 5rem 6rem 0;
     }
 }
 .box-mapa{
@@ -56,12 +56,15 @@
 .sol, .palacio_real, .gran_via{
     font-family: "Roboto", serif;
     line-height: 26px;
-    font-size: 18sspx;
+    font-size: 18px;
     font-weight: 600;
     list-style: none;
     color: #5BE2AA;
     text-decoration: underline;
 }
 .primer_parrafo{
+    margin: 3rem 0;
+}
+.segundo_parrafo{
     margin: 3rem 0;
 }
