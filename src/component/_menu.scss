@@ -18,6 +18,7 @@ header{
   margin-top: 10px;
   fill: #c7c7c7; 
 }
+
 .icono_menu :hover{
   fill: #5BE2AA;
 }
@@ -38,6 +39,11 @@ li:hover{
   color: #5BE2AA !important;
   fill: #5BE2AA;
   font-weight: 600;
+}
+span:hover{
+  color: #5BE2AA;
+  fill: #5BE2AA;
+
 }
 .webapp{
   width:100%;
@@ -136,5 +142,8 @@ li:hover{
   line-height:14px;
   margin-bottom:16px;
   color: #c7c7c7;
-  
+}
+#flavor-menu li span:hover{
+  color: #5BE2AA;
+  font-weight: 600;
 }
