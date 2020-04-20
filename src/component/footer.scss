@@ -1,0 +1,61 @@
+.footer{
+    background:#333333;
+}
+.containerfooter{
+    padding: 10px 0;
+    margin: 0 auto;
+    max-width: 200px;
+    font-family: "roboto";
+    line-height: 21px;
+    font-size: 14px;
+}
+@media only screen and (min-width: 768px){
+    .containerfooter{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 455px;
+    }
+}
+.menufooter a{
+    color: #5BE2AA;
+    text-decoration: underline;  
+}
+.politica{
+    text-decoration: underline;
+    color: rgb(189, 189, 189);
+    
+}
+@media only screen and (min-width:  768px){
+    .politica{
+        margin-right: 5rem;
+    }
+}
+.copyrightitem{
+    background: #252525;
+    color: #7E7E7E;
+    text-align: center;
+    padding: 0.5rem 5rem;
+    font-family: "Roboto", serif;
+    font-size: 12px;
+}
+.containeritems{
+    display: flex;
+    margin-bottom: 3rem;
+    margin: 20px 40px;
+}
+.redessociales{
+    margin: 20px 40px;
+}
+
+@media only screen and (min-width: $MQ-M){
+    .iconosredes{
+        padding-left: 0;
+    }
+}
+.instagram, .facebook{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+
+}

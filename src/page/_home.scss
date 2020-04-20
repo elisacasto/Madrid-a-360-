@@ -128,25 +128,10 @@
 }
 .titulo_icono{
     display: flex;
-    height: 3remsssss;
+    height: 3rem;
 }
 .icono_info{
     display: block;
     width: 30px;
     margin-right: 20px;
-}
-.footer{
-    background: #333333;
-    padding: 2rem 0;
-    width: 100%;
-}
-.footer_copyright{
-    background: #252525;
-    padding: 0.5rem 0;
-    margin-bottom: 4rem;
-}
-@media only screen and (min-width: 768px){
-    .footer_copyright{
-        margin-bottom: 0;
-    }
 }

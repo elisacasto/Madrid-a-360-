@@ -18,7 +18,11 @@
 	transform: scale(1);
 	transition: .7s ease-in-out;
 }
-
+.caja_barrio:hover{
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
  
 .plazamayor{
     background-image: url(../img/plazamayor.png);
@@ -28,7 +32,6 @@
 }
 .retiro{
     background-image: url(../img/retiro.png);
-
 }
 .atocha{
     background-image: url(../img/atocha.png);
