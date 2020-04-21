@@ -6,16 +6,9 @@
 }
 @media only screen and (min-width: 960px){
     .content_cajas_barrios{
-        max-width: 90%;
-        padding: 0 3rem 6rem;
+        width: 60%;
     }
 }
-@media only screen and (min-width: 1024px){
-    .content_cajas_barrios{
-        min-width: 60% !important;
-    }
-}
-
 .caja_barrio{
     width: 331px;
     height: 147px;
@@ -29,7 +22,7 @@
   }
  
 .plazamayor{
-    flex-grow: 2;
+    flex-grow: 3;
     background-image: url(../img/plaza_mayor.jpg);
     background-size: cover;
     background-position: center;
@@ -53,7 +46,7 @@
     border-radius: 23px;
 }
 .atocha{
-    flex-grow: 1;
+    flex-grow: 3;
     background-image: url(../img/atocha.jpg);
     background-size: cover;
     background-position: center;
@@ -61,7 +54,7 @@
     border-radius: 23px;
 }
 .alcala{
-    flex-grow: 1;
+    flex-grow: 3;
     background-image: url(../img/alcala.jpg);
     background-size: cover;
     background-position: center;
@@ -69,7 +62,7 @@
     border-radius: 23px;
 }
 .rio{
-    flex-grow: 9;
+    flex-grow: 1;
     background-image: url(../img/rio.jpg);
     background-size: cover;
     background-position: center;
@@ -77,7 +70,7 @@
     border-radius: 23px;
 }
 .real{
-    flex-grow: 0;
+    flex-grow: 1;
     background-image: url(../img/palacioreal.jpg);
     background-size: cover;
     background-position: center;
@@ -85,7 +78,7 @@
     border-radius: 23px;
 }
 .prado{
-    flex-grow: 6;
+    flex-grow: 3;
     background-image: url(../img/prado.jpg);
     background-size: cover;
     background-position: center;
@@ -93,7 +86,7 @@
     border-radius: 23px;
 }
 .cibeles{
-    flex-grow: 1;
+    flex-grow: 3;
     background-image: url(../img/cibeles.jpg);
     background-size: cover;
     background-position: center;
