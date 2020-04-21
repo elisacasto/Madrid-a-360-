@@ -1,13 +1,13 @@
 .content_cajas_barrios{
     display: flex;
-    padding-bottom: 5rem;
+    width: 100%;
     flex-wrap: wrap;
     margin: 0 auto;
 }
 @media only screen and (min-width: 768px){
     .content_cajas_barrios{
-        width: 80%;
-        flex-grow: 1;
+        max-width: 60%;
+        padding: 0 3rem 6rem;
     }
 }
 .caja_barrio{
@@ -15,44 +15,92 @@
     height: 147px;
     margin: auto;
     margin-bottom: 1rem;
-	transform: scale(1);
-	transition: .7s ease-in-out;
+    margin: 1rem 1rem;
 }
-.caja_barrio:hover{
-    animation-name: bounce;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
+
+.caja_barrio:hover {
+    background:#5BE2AA !important;
+  }
  
 .plazamayor{
-    background-image: url(../img/plazamayor.png);
+    flex-grow: 2;
+    background-image: url(../img/plaza_mayor.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 23px;
 }
 .granvia{
+    flex-grow: 1;
     background-image: url(../img/granvia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 23px;
 }
 .retiro{
-    background-image: url(../img/retiro.png);
+    flex-grow: 1;
+    background-image: url(../img/retiro.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 23px;
 }
 .atocha{
-    background-image: url(../img/atocha.png);
+    flex-grow: 1;
+    background-image: url(../img/atocha.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 23px;
 }
 .alcala{
-    background-image: url(../img/alcala.png);
+    flex-grow: 1;
+    background-image: url(../img/alcala.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 23px;
 }
 .rio{
-    background-image: url(../img/rio.png);
+    flex-grow: 9;
+    background-image: url(../img/rio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 23px;
 }
 .real{
-    background-image: url(../img/palacioreal.png);
+    flex-grow: 0;
+    background-image: url(../img/palacioreal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 23px;
 }
 .prado{
-    background-image: url(../img/prado.png);
+    flex-grow: 6;
+    background-image: url(../img/prado.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 23px;
 }
 .cibeles{
-    background-image: url(../img/cibeles.png);
+    flex-grow: 1;
+    background-image: url(../img/cibeles.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 23px;
 }
 .plazaespaña{
-    background-image: url(../img/plazaespana.png);
+    flex-grow: 1;
+    background-image: url(../img/plazaespana.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 23px;
 }
 .texto_barrio{
     display: flex;
