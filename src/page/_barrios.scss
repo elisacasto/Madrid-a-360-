@@ -4,9 +4,10 @@
     flex-wrap: wrap;
     margin: 0 auto;
 }
-@media only screen and (min-width: 960px){
+@media only screen and (min-width: 768px){
     .content_cajas_barrios{
-        width: 60%;
+        max-width: 60%;
+        padding: 0 3rem 6rem;
     }
 }
 .caja_barrio{
@@ -22,7 +23,7 @@
   }
  
 .plazamayor{
-    flex-grow: 3;
+    flex-grow: 1;
     background-image: url(../img/plaza_mayor.jpg);
     background-size: cover;
     background-position: center;
@@ -30,7 +31,7 @@
     border-radius: 23px;
 }
 .granvia{
-    flex-grow: 1;
+    flex-grow: 4;
     background-image: url(../img/granvia.jpg);
     background-size: cover;
     background-position: center;
@@ -38,7 +39,7 @@
     border-radius: 23px;
 }
 .retiro{
-    flex-grow: 1;
+    flex-grow: 4;
     background-image: url(../img/retiro.jpg);
     background-size: cover;
     background-position: center;
@@ -46,7 +47,7 @@
     border-radius: 23px;
 }
 .atocha{
-    flex-grow: 3;
+    flex-grow: 1;
     background-image: url(../img/atocha.jpg);
     background-size: cover;
     background-position: center;
@@ -54,7 +55,7 @@
     border-radius: 23px;
 }
 .alcala{
-    flex-grow: 3;
+    flex-grow: 1;
     background-image: url(../img/alcala.jpg);
     background-size: cover;
     background-position: center;
@@ -62,7 +63,7 @@
     border-radius: 23px;
 }
 .rio{
-    flex-grow: 1;
+    flex-grow: 4;
     background-image: url(../img/rio.jpg);
     background-size: cover;
     background-position: center;
@@ -70,7 +71,7 @@
     border-radius: 23px;
 }
 .real{
-    flex-grow: 1;
+    flex-grow: 4;
     background-image: url(../img/palacioreal.jpg);
     background-size: cover;
     background-position: center;
@@ -78,7 +79,7 @@
     border-radius: 23px;
 }
 .prado{
-    flex-grow: 3;
+    flex-grow: 1;
     background-image: url(../img/prado.jpg);
     background-size: cover;
     background-position: center;
@@ -86,7 +87,7 @@
     border-radius: 23px;
 }
 .cibeles{
-    flex-grow: 3;
+    flex-grow: 1;
     background-image: url(../img/cibeles.jpg);
     background-size: cover;
     background-position: center;
@@ -94,7 +95,7 @@
     border-radius: 23px;
 }
 .plazaespaña{
-    flex-grow: 1;
+    flex-grow: 4;
     background-image: url(../img/plazaespana.jpg);
     background-size: cover;
     background-position: center;
