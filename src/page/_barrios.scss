@@ -6,6 +6,13 @@
 }
 @media only screen and (min-width: 768px){
     .content_cajas_barrios{
+        max-width: 90%;
+        padding: 0 3rem 6rem;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .content_cajas_barrios{
         max-width: 60%;
         padding: 0 3rem 6rem;
     }
