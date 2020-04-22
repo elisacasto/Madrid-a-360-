@@ -4,10 +4,15 @@
     flex-wrap: wrap;
     margin: 0 auto;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 960px){
+    .content_cajas_barrios{
+        max-width: 80%;
+        padding: 0 3rem 6rem;
+    }
+}
+@media only screen and (min-width: 1680px){
     .content_cajas_barrios{
         max-width: 60%;
-        padding: 0 3rem 6rem;
     }
 }
 .caja_barrio{
@@ -31,7 +36,8 @@
     border-radius: 23px;
 }
 .granvia{
-    flex-grow: 4;
+    flex-grow: 4
+    ;
     background-image: url(../img/granvia.jpg);
     background-size: cover;
     background-position: center;
