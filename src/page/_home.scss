@@ -115,6 +115,11 @@
         width: 80%;
     }
 }
+@media only screen and (min-width: 1680px){
+    .flex{
+        max-width: 60%;
+    }
+}
 .white{
     color: white !important;
 }
