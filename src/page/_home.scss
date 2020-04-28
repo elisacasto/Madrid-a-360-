@@ -27,7 +27,12 @@
     }
 }
 .margin{
-    margin: 8rem auto !important;
+    margin: 4rem auto !important;
+}
+@media only screen and (min-width: 960px){
+.margin{
+    margin: 6rem auto !important;
+}
 }
 .texto-home{
     font-family:"Playfair Display";
