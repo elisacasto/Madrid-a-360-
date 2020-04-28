@@ -14,7 +14,7 @@ body{
     color: #444444;
 }
 .h2{
-    font-family: "Roboto", serif;
+    font-family: "Roboto", serif;  
     font-style: normal;
     font-weight: bold;
     line-height: normal;
@@ -30,6 +30,7 @@ body{
     }
     .nomargin{
         margin-left: 0 !important;
+        max-width: 100% !important;
     }
 }
 .h5{
@@ -73,10 +74,6 @@ body{
     .parrafo{
         max-width: 70%;
     }
-}
-.back{
-    margin-left: 0;
-    max-width: 100%;
 }
 .hight{
     line-height: 1px !important;
