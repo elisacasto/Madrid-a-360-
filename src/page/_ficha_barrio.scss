@@ -54,7 +54,7 @@
 .puntos_interes{
     padding: 0;
 }
-.sol, .palacio_real, .gran_via{
+.near{
     font-family: "Roboto", serif;
     line-height: 26px;
     font-size: 18px;
@@ -62,6 +62,12 @@
     list-style: none;
     color: #5BE2AA;
     text-decoration: underline;
+}
+@media only screen and (min-width: 960px){
+    .near{
+        margin-left: 10%;
+    }
+
 }
 .primer_parrafo{
     margin: 3rem 0;

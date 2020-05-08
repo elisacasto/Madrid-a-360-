@@ -115,14 +115,22 @@
 @media only screen and (min-width: 960px){
     .flex{
         display: flex;
+        flex-wrap: wrap;
         margin: 0 auto;
-        width: 80%;
     }
 }
 @media only screen and (min-width: 1680px){
     .flex{
         max-width: 60%;
     }
+}
+.ubi_transporte{
+    margin:o auto;
+    width: 100%;
+}
+.nowrap{
+    flex-wrap: nowrap;
+    margin: 0 auto;
 }
 .white{
     color: white !important;
@@ -156,7 +164,7 @@
 }
 @media only screen and (min-width: 768px){
     .max_width{
-        width: 30%;
+        width: 30% ;
         margin: 1rem auto;
     }
 }
