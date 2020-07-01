@@ -11,16 +11,17 @@
 }
 .content-home{
     display: flex;
-    background-color: #f5f5f5;
+    background-color: radial-gradient(69.35% 81.38% at 50% 50%, #5BE2AA 27.6%, #DBACFF 100%);background: radial-gradient(69.35% 81.38% at 50% 50%, #5BE2AA 27.6%, #DBACFF 100%);
+    border-radius: 23px;
     justify-content: center;
-    padding-top: 10%;
-    bottom: 0;
+    padding-top: 7%;
+    padding-bottom: 2%;
     height: 80vh;
     
 }
 @media only screen and (min-width: 960px){
     .content-home{
-        padding-top: 10%;
+        padding-top: 7%;
         width: 100%;
         border-radius: 23px;
         margin: 0 auto;
@@ -37,32 +38,38 @@
 .texto-home{
     font-family:"Playfair Display";
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     color: #333333;
     line-height: 40px;
-    margin-top: 6rem;
-    margin-left: 20px;
-    margin-right: -7.5rem;
+    position: absolute;
+    margin: 10rem auto;
     
 }
 .madrid{
     font-weight: bold;
-    font-size: 30px;
-    color: #5BE2AA;
+    font-size: 40px;
+    color: #ffffff;
 }
 @media only screen and (min-width: 960px){
     .texto-home{
-        font-size: 70px;
-        line-height: 80px;  
+        font-size: 30px;
+        line-height: 38px;  
     }
     .madrid{
         font-weight: bold;
-        font-size: 70px;
+        font-size: 40px;
     }
 }
-
 .foto{
     width: 100%;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+}
+@media only screen and (min-width: 768px){
+    .foto{
+        width: 80%;
+    }
 }
 .content_texto{
     width: 90%;
