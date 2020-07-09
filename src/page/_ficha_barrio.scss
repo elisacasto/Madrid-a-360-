@@ -22,6 +22,14 @@
     .plaza_mayor{
         background-position: top;
         margin: 0 auto;
+        height: 50vh;
+        border-radius: 23px;
+    }
+}
+@media only screen and (min-width: 960px){
+    .plaza_mayor{
+        background-position: top;
+        margin: 0 auto;
         height: 85vh;
         border-radius: 23px;
     }
