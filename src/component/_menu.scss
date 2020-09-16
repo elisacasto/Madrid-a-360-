@@ -1,3 +1,6 @@
+.over_menu :hover{
+  fill: #5BE2AA !important;
+}
 header{
     display: block;
     background-color: white;
@@ -42,7 +45,6 @@ li:hover{
 }
 span:hover{
   color: #5BE2AA;
-  fill: #5BE2AA;
 
 }
 .webapp{
@@ -108,24 +110,36 @@ span:hover{
     height: 100%;
     display: flex;
     left: 0;
-    padding: 0 8px;
-    margin: 0 auto;
+    padding: 0px;
+    margin: 0 13pxs;
+    justify-content: center !important;
 }
 @media only screen and (min-width: 768px){
   #flavor-menu{
-    max-width: 30%;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
 }
-
+.logo{
+  margin: 0 auto;
+  display: block;
+  margin: 10px 12px;
+}
 #flavor-menu li{
   display:flex;
-  margin: 0 auto;
+  margin: 0px;
   height:72px;
   width:auto;
   text-align:center;
-  padding:0px 24px;
-
+  padding:0px 15px;
+}
+@media only screen and (min-width: 768px){
+  #flavor-menu li{
+    display:flex;
+    height:72px;
+    width:auto;
+    text-align:center;
+    padding:0px 20px;
+  }
 }
 
 #flavor-menu li i{
@@ -137,11 +151,21 @@ span:hover{
 
 #flavor-menu li span{
   display:block;
-  font-size:12px;
+  font-size:10px;
   font-family: "Montserrat", sans-serif;
   line-height:14px;
   margin-bottom:16px;
   color: #c7c7c7;
+}
+@media only screen and (min-width: 768px){
+  #flavor-menu li span{
+    display:block;
+    font-size:12px;
+    font-family: "Montserrat", sans-serif;
+    line-height:14px;
+    margin-bottom:16px;
+    color: #c7c7c7;
+  }
 }
 #flavor-menu li span:hover{
   color: #5BE2AA;
