@@ -2,6 +2,8 @@
     background:#333333;
 }
 .containerfooter{
+    display: flex;
+    flex-wrap: wrap;
     padding: 10px 0;
     margin: 0 auto;
     max-width: 300px;
@@ -12,7 +14,7 @@
 @media only screen and (min-width: 768px){
     .containerfooter{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         margin: 0 auto;
         max-width: 455px;
     }
