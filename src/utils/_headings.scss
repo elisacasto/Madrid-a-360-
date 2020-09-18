@@ -41,19 +41,12 @@ strong{
     font-weight: normal;
     line-height: normal;
     font-size: 12px;
-    margin-top: 8%;
+    padding: 0 1rem;
     margin-bottom: 3rem;
     letter-spacing: 0.2em;
     text-decoration: underline;
     color: #8F8F8F;
     text-align: left;
-}
-@media only screen and (min-width: 960px){
-    .h5{
-        text-align: left;
-        margin-top: 3rem;
-        margin-left: 15%;;
-    }
 }
 .nombre_barrio{
     font-family: "Roboto", serif;
