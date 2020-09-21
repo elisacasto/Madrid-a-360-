@@ -1,6 +1,6 @@
-.over_menu :hover{
+/*.over_menu :hover{
   fill: #5BE2AA !important;
-}
+}*/
 header{
     display: block;
     background-color: white;
@@ -22,9 +22,9 @@ header{
   fill: #c7c7c7; 
 }
 
-.icono_menu :hover{
+/*.icono_menu :hover{
   fill: #5BE2AA;
-}
+}*/
 a {
   color: inherit;
   text-decoration: none;
@@ -35,18 +35,17 @@ ul,li{
   margin:0px;
   list-style:none;
 }
-li:hover{
+/*li:hover{
   color: #5BE2AA; 
-}
+}*/
 .active{
   color: #5BE2AA !important;
   fill: #5BE2AA;
   font-weight: 600;
 }
-span:hover{
+/*span:hover{
   color: #5BE2AA;
-
-}
+}*/
 .webapp{
   width:100%;
   background-color:#e0e0e0;
@@ -167,7 +166,7 @@ span:hover{
     color: #c7c7c7;
   }
 }
-#flavor-menu li span:hover{
+/*#flavor-menu li span:hover{
   color: #5BE2AA;
   font-weight: 600;
-}
+}*/
