@@ -1,3 +1,12 @@
+
+.nomargin{
+    margin-top:1rem !important;
+}
+@media only screen and (min-width: 768px){
+    .nomargin{
+        margin-top: 10% !important;
+    }
+}
 @media only screen and (min-width:960px){
     .content_ficha{
         display: flex;
@@ -20,7 +29,6 @@
     height: 300px;
     margin: 0 auto;
     border-radius: 23px;
-    padding-top: 0.5rem;
     margin-bottom: 1rem;
 }
 @media only screen and (min-width:768px){
