@@ -9,8 +9,7 @@ strong{
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    margin-top: 0;
-    margin-bottom: 3rem;
+    margin: 0 auto 3rem;
     font-size: 36px;
     text-align: center;
     letter-spacing: 0.2em;
@@ -19,6 +18,7 @@ strong{
 @media only screen and (min-width: 768px){
     .h1{
         font-size: 46px;
+        max-width: 80%;
     }
 }
 .h2{
@@ -34,7 +34,7 @@ strong{
 }
 @media only screen and (min-width: 960px){
     .h2{
-        margin-left: 15%;
+        margin-left: 10%;
     }
     .nomargin{
         margin-left: 0 !important;
@@ -50,7 +50,7 @@ strong{
     margin-bottom: 3rem;
     letter-spacing: 0.2em;
     text-decoration: underline;
-    color: #8F8F8F;
+    color: #7E7E7E;
     text-align: left;
 }
 .nombre_barrio{
@@ -64,16 +64,16 @@ strong{
 }
 .parrafo{
     font-family: "roboto";
-    line-height: 21px;
+    line-height: 28px;
     font-size: 14px;
     font-weight: lighter;
     text-align: left;
     margin: 0 auto;
-    color: #9b9a9a;
+    color: #7E7E7E;
 }
 @media only screen and (min-width: 960px){
     .parrafo{
-        max-width: 70%;
+        max-width: 80%;
     }
 }
 .hight{

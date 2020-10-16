@@ -8,7 +8,7 @@
 }
 @media only screen and (min-width: 768px){
     .content_food{
-        width: 50%;
+        width: 45%;
     }
   }
   @media only screen and (min-width: 960px){
@@ -20,9 +20,11 @@
     display: block;
     object-fit: cover;
     width: 95%;
+    height: 200px;
     margin: 0 auto;
     border-radius: 23px;
     padding-top: 0.5rem;
+    
 }
 .info_plato{
     padding: 0 0 1rem 2rem;
