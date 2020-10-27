@@ -12,7 +12,7 @@ strong{
     margin: 0 auto 3rem;
     font-size: 36px;
     text-align: center;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     color: #444444;
 }
 @media only screen and (min-width: 768px){
@@ -28,17 +28,14 @@ strong{
     line-height: normal;
     font-size: 18px;
     text-align: left;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     color: #444444;
-    
+    margin-top: 0;
 }
-@media only screen and (min-width: 960px){
-    .h2{
-        margin-left: 10%;
-    }
+@media only screen and (min-width:960px){
     .nomargin{
-        margin-left: 0 !important;
-        max-width: 100% !important;
+        margin-left: 10%;
+        margin-bottom: 0;
     }
 }
 .h5{
@@ -48,7 +45,7 @@ strong{
     font-size: 12px;
     padding: 0 1rem;
     margin-bottom: 3rem;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     text-decoration: underline;
     color: #7E7E7E;
     text-align: left;
@@ -71,11 +68,11 @@ strong{
     margin: 0 auto;
     color: #7E7E7E;
 }
-@media only screen and (min-width: 960px){
+/*@media only screen and (min-width:960px){
     .parrafo{
         max-width: 80%;
     }
-}
+}*/
 .hight{
     line-height: 1px !important;
 }

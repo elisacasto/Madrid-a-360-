@@ -47,11 +47,6 @@
     padding: 3rem 1rem 0;
     z-index: 0;
 }
-@media only screen and (min-width: 768px){
-    .info_box{
-        padding: 5rem 6rem 0;
-    }
-}
 .box-mapa{
     margin-top: 5rem;
 }
@@ -77,9 +72,13 @@
     }
 
 }
-.primer_parrafo{
-    margin: 3rem 0;
+.box_parrafo{
+    margin: 3rem auto;
+    width: 90%;
 }
-.segundo_parrafo{
-    margin: 3rem 0;
+@media only screen and (min-width: 960px){
+    .box_parrafo{
+        width: 70%;
+    }
+
 }
